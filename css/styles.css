@@ -216,6 +216,7 @@ img {
 svg {
   overflow: hidden;
   vertical-align: middle;
+  margin-left: 6px;
 }
 
 table {
@@ -2473,6 +2474,7 @@ textarea.form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
+  margin-bottom: 1em;
   
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -8058,6 +8060,7 @@ button.bg-black:focus {
 .mr-auto,
 .mx-auto {
   margin-right: auto !important;
+
 }
 
 .mb-auto,
@@ -8068,6 +8071,7 @@ button.bg-black:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+
 }
 
 @media (min-width: 576px) {
@@ -10161,7 +10165,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #000;
   border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
@@ -10248,11 +10252,17 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg2.jpg");
+
   
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.masthead video {
+  width: 100%;
+  height: auto;
 }
 .masthead h1 {
   /*font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
@@ -10261,7 +10271,7 @@ body {
   line-height: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.8rem;
-  background: linear-gradient(#0f82af, #222224);
+  background: linear-gradient(#0f82af, #ffff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
